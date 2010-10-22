@@ -1,6 +1,7 @@
 ---
 title: Hello World! I'm Octopress!
 updated: March 10th, 2010
+published: false
 ---
 
 **Octopress is a blogging framework designed for hackers**, based on [Jekyll](http://github.com/mojombo/jekyll) the blog aware static site generator powering [Github pages](http://pages.github.com/).
