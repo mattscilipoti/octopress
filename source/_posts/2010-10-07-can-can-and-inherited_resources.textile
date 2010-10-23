@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Cancan, Inherited Resources, and Nested Routes
 location: Baltimore, MD
 ---

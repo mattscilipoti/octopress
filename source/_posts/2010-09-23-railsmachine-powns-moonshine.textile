@@ -16,7 +16,7 @@ Moonshine and Rails3 sitting in a tree...
 
 As of today, moonshine is working nicely with Rails3 and Bundler 1.0.  Whew!  
 
-h2.  "Mooonsine":http://github.com/railsmachine/moonshine
+h2.  "Mooonshine":http://github.com/railsmachine/moonshine
 
 bq.  Rails deployment and configuration management done right. 
 ShadowPuppet + Capistrano == crazy delicious

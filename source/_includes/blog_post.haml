@@ -1,0 +1,10 @@
+.article
+  %h2= page.title
+  - if page.respond_to? :location
+    .meta
+      - author = (page.respond_to?(:author) && page.author) ? 'by: ' + page.author + ' |' : ''
+      = page.date.strftime("%d %b %Y")
+      = page.location ? " | #{page.location}" : ''
+      = (page.respond_to?(:updated) && page.updated) ? " | updated: #{page.updated}" : ''
+  = preserve rp(content)
+  - disqus_thread= include "disqus_thread.haml" if page.respond_to?(:disqus_short_name) && page.disqus_short_name
