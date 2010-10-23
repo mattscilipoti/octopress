@@ -8,7 +8,7 @@ location: Laurel, MD
   So... I migrated to 
   %a{:href => 'http://github.com/imathis/octopress'} Octopress.
   
-A blogging framework for hackers.
+A(nother) blogging framework for hackers.
 
 %h3  Why?
 I have been using Jekyll with GitHub Pages since June 2009.  GitHub was processing my raw pages, so I was forced to use MarkDown or Textile.
@@ -16,7 +16,7 @@ I prefer Haml; with a dash of the :markdown filter.
 
 %h3 The Migration
 :textile
-  The setup took a little more effort than the base Jekyll site, but I received a bit more functionality.  And Haml.
+  The setup took a little more effort than a base Jekyll site, but I received a bit more functionality.  And Haml.
   The docs and wiki are quite helpful.
   Octopress is based on Jekyll, so it felt familiar.
 You can see the source at 
@@ -29,8 +29,9 @@ You can see the source at
   1. clone octopress
   2. Configure feedburner; sidebar w/ twitter, delicious; google analytics and search (more vars in default.haml)
   3. Assign blog :title and :author.  Simply by setting the appropriate vars in source/layouts/default.haml.
-  4. Copy over my posts.  Removing meta data from each post (handled by layout now).
-  5.  Moved location into post meta.  Retrieve post.data[:location]
+  4. Copy over my posts.  
+  5. Create layout for old posts.  New layout uses meta data.
+  6. Moved location into post meta.  Retrieve post.data[:location]
   
 %h3 Ch... Ch... Changes
 
@@ -38,7 +39,9 @@ You can see the source at
 
   Here are some of the differences.
   1. _posts -> source/_posts
-  2. 
-  3.
+  2. Embracing compass => many sass partials.
+  3. Configure using vars in layout.
 
+%h3 Conclusion
+Enjoying it so far.  Happy I switched.  Now... it's time to work on this layout.
   
